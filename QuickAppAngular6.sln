@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7947263A-A44F-46F6-BD0A-7A685E4BB0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAppAngular6", "QuickAppAngular6\QuickAppAngular6\QuickAppAngular6.csproj", "{5A40F987-5936-4B06-8C51-66E3F84FC37B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "QuickAppAngular6\DAL\DAL.csproj", "{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A40F987-5936-4B06-8C51-66E3F84FC37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A40F987-5936-4B06-8C51-66E3F84FC37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A40F987-5936-4B06-8C51-66E3F84FC37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A40F987-5936-4B06-8C51-66E3F84FC37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A40F987-5936-4B06-8C51-66E3F84FC37B} = {7947263A-A44F-46F6-BD0A-7A685E4BB0EE}
+		{2FEB5D11-0A93-45C2-9A20-6F4DB264B7A7} = {7947263A-A44F-46F6-BD0A-7A685E4BB0EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D49780F-4C6C-4EAE-AB01-AC223F967A01}
+	EndGlobalSection
+EndGlobal
